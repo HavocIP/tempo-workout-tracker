@@ -7,8 +7,9 @@ import { WorkoutPage } from './pages/WorkoutPage'
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="mx-auto min-h-full w-full max-w-md bg-bg pb-24">
-        <Routes>
+      <div className="mx-auto flex h-full w-full max-w-md flex-col bg-bg">
+        <main className="min-h-0 flex-1 overflow-y-auto pb-10">
+          <Routes>
           <Route path="/" element={<WorkoutPage />} />
           <Route
             path="/mesos"
@@ -50,9 +51,10 @@ export default function App() {
               />
             }
           />
-        </Routes>
+          </Routes>
+        </main>
+        <TabBar />
       </div>
-      <TabBar />
     </BrowserRouter>
   )
 }

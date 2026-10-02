@@ -2,11 +2,11 @@
   "version": 7,
   "port": 43949,
   "allocatedAt": 1790898418506,
-  "pid": 7363,
-  "pidStartedAt": "Thu Oct  1 20:29:52 2026",
+  "pid": null,
+  "pidStartedAt": null,
   "serverPid": null,
   "serverPidStartedAt": null,
   "ownerId": "5ef49e6d67bf23d9",
-  "managerPid": 6526,
-  "managerStartedAt": "Thu Oct  1 20:29:31 2026"
+  "managerPid": 103337,
+  "managerStartedAt": "Fri Oct  2 09:04:12 2026"
 }

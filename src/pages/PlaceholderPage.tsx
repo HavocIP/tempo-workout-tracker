@@ -14,7 +14,7 @@ export function PlaceholderPage({ title, description, Icon }: PlaceholderPagePro
           {title}
         </h1>
       </header>
-      <div className="flex flex-1 flex-col items-center justify-center gap-4 px-10 pb-24 text-center">
+      <div className="flex flex-1 flex-col items-center justify-center gap-4 px-10 text-center">
         <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-surface text-ink-2">
           <Icon className="h-10 w-10" strokeWidth={1.5} />
         </div>
