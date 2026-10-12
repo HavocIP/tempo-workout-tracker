@@ -5,15 +5,16 @@
 // (set_app_dev_command) so the "/" route renders here.
 
 import { Canvas, RouteStoryboard } from 'tempo-sdk/canvas'
+import { HtmlStoryboard as TempoCanvasHtmlStoryboard } from "tempo-sdk/canvas";
 
 export default function HomeCanvas() {
   return (
     <Canvas name="Home">
       <RouteStoryboard
         id="Home"
-        name="Workout — Week 1 Day 1 (/)"
+        name="Workout — Week 1 Day 2 (/)"
         route="/"
-        layout={{ x: 0, y: 0, width: 430, height: 1800 }}
+        layout={{ x: 0, y: -24, width: 430, height: 1800 }}
       />
       <RouteStoryboard
         id="Mesos"
@@ -38,6 +39,12 @@ export default function HomeCanvas() {
         name="More (/more)"
         route="/more"
         layout={{ x: 2040, y: 0, width: 430, height: 932 }}
+      />
+      <TempoCanvasHtmlStoryboard
+        id="HTMLPasteStoryboard"
+        name="HTMLPasteStoryboard"
+        filepath="./.tempo-html-paste/HTMLPasteStoryboard.html"
+        layout={{ x: 2550, y: 0, width: 1280, height: 800 }}
       />
     </Canvas>
   )

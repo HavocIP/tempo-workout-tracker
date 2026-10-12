@@ -1,0 +1,12 @@
+{
+  "version": 7,
+  "port": 43949,
+  "allocatedAt": 1790898418506,
+  "pid": null,
+  "pidStartedAt": null,
+  "serverPid": null,
+  "serverPidStartedAt": null,
+  "ownerId": "5ef49e6d67bf23d9",
+  "managerPid": 110344,
+  "managerStartedAt": "Fri Oct  2 10:00:33 2026"
+}

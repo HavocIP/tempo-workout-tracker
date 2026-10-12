@@ -20,7 +20,7 @@ export function WorkoutHeader({
       <div className="flex items-start justify-between">
         <div>
           <h1 className="text-[28px] font-extrabold uppercase leading-none tracking-tight">
-            <span className="text-ink">DORK {week}</span>{' '}
+            <span className="text-ink">DOINK {week}</span>{' '}
             <span className="text-ink-3">Day {day}</span>
           </h1>
           <p className="mt-2 text-lg text-ink-2">
